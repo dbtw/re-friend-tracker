@@ -21,6 +21,12 @@ export class GuiModel {
                             "required": true
                         },
                         {
+                            "id": "groupdate",
+                            "type": "date",
+                            "name": "Groupday",
+                            "width": 2
+                        },
+                        {
                             "id": "comment",
                             "type": "text",
                             "name": "Comments",
@@ -158,6 +164,20 @@ export class GuiModel {
                             "defaultKey": "activityKey",
                             "readonly": true,
                             "form": "ActivityForm",
+                            "width": 2
+                        },
+                        {
+                            "id": "activitydate",
+                            "type": "date",
+                            "name": "activity date",
+                            "width": 2
+                        },
+                        {
+                            "id":   "location",
+                            "type": "autocomplete",
+                            "name": "Location",
+                            "url": "/location",
+                            "form": "LocationForm",
                             "width": 2
                         },
                         {
